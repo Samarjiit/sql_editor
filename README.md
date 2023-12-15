@@ -1,6 +1,62 @@
-# Getting Started with Create React App
+<h1 align="center">
+    🚀 Online SQL Editor 
+</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="center">
+Crafted with <span style="color: #8b0000;">&hearts;</span> by Samarjit Mahi
+</p>
+
+<h2 align="center">Built using: </h2>
+<p align="center">
+    <img src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+    <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+    <img src="https://img.shields.io/badge/Visual_Studio_Code-0078D4?style=for-the-badge&logo=visual%20studio%20code&logoColor=white" />
+</p>
+
+## View Demo on the Deployed Site 🚀
+
+<!-- <p>Click https://sql-editor-react.netlify.app to view the deployed site</p>
+<img width="1507" alt="Screenshot 2022-06-25 at 9 49 27 AM" src="https://user-images.githubusercontent.com/60519359/175757814-43257b04-728e-4742-bb65-e53daed5692c.png"> -->
+
+## 👨‍💻 Features
+
+<!-- :white_check_mark: Users can get data of any of the predefined SQL queries either by using SQL Editor or Sidebar Menu.\
+:white_check_mark: Users can sort data directly by clicking the Table Headers title.\
+:white_check_mark: Users can search for a particular data among many records using the search bar.\
+:white_check_mark: Users can download the output window table as CSV, with just a single click. -->
+
+## ✍️ Predefined SQL Queries
+
+- `select * from customers`
+- `select * from categories`
+- `select * from employees`
+- `select * from order_details`
+- `select * from shippers`
+- `select * from suppliers`
+
+## ⚙️ NPM Modules Used
+
+- `"react-ace": "^10.1.0",` - To make the code editor
+- `"react-csv-to-table": "^0.0.4",` - To show the output as a simple CSV table
+- `"react-dom": "^18.2.0",` - To interact with React's virtual DOM
+- `"react-icons": "^4.4.0",` - To have an icon library
+- `"react-router-dom": "^6.3.0",` - To implement routing features provided by React.js
+- `"react-csv": "^2.2.2",` - To export the output window table as CSV
+
+<!-- ## ⏱ Page Load Time
+
+The Webapp loads in about 0.4 s to 0.6s. This is calculated by using Google Lighthouse tool in Chromium based browsers.
+*NOTE: The Lighthouse Audits scores are decreased because of preinstalled browser extensions that are non-removable in my system.*
+
+<img width="1498" alt="Screenshot 2022-06-25 at 1 39 20 AM" src="https://user-images.githubusercontent.com/60519359/175661159-8def9c6c-c769-4f6b-918b-0ff2e935793a.png">
+
+## 🪜 Steps I took to optimize the page load time
+
+- Used `.webp` assets instead of `.png` or `.jpeg` to minmizing loading time.
+- Used SVG icons wherever possible as they are lighter than image type icons.
+- Used PurgeCSS to tree-shake unused styles and optimize my final build size.
+- Used Lighthouse DevTools Extension to find the performance issues and fix them using their actionable suggestion.
+- Used netlify that has world-class CDN technology that reduces waiting time even further. -->
 
 ## Available Scripts
 
@@ -9,62 +65,4 @@ In the project directory, you can run:
 ### `npm start`
 
 Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
