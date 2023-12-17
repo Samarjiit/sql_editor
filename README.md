@@ -1,5 +1,5 @@
 <h1 align="center">
-    🚀 Online SQL Editor 
+    🚀  SQL Editor 
 </h1>
 
 <p align="center">
@@ -15,7 +15,7 @@ Crafted with <span style="color: #8b0000;">&hearts;</span> by Samarjit Mahi
 
 ## View Demo on the Deployed Site 🚀
 
- <p>Click https://chic-kleicha-c9061e.netlify.app/ to view the deployed site</p>
+ <p>Click https://sql-editorr.netlify.app/ to view the deployed site</p>
 
 ## screenshot
 
