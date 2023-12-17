@@ -26,7 +26,7 @@ Crafted with <span style="color: #8b0000;">&hearts;</span> by Samarjit Mahi
 ## Performance
 
 <p align="center">
-  <img src="aa.png">
+  <img src="aaa.png">
   </p>
 
 ## ⚙️ NPM Modules Used
