@@ -25,15 +25,6 @@ Crafted with <span style="color: #8b0000;">&hearts;</span> by Samarjit Mahi
 :white_check_mark: Users can search for a particular data among many records using the search bar.\
 :white_check_mark: Users can download the output window table as CSV, with just a single click. -->
 
-## ✍️ Predefined SQL Queries
-
-- `select * from customers`
-- `select * from categories`
-- `select * from employees`
-- `select * from order_details`
-- `select * from shippers`
-- `select * from suppliers`
-
 ## ⚙️ NPM Modules Used
 
 - `"react-ace": "^10.1.0",` - To make the code editor

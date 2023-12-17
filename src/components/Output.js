@@ -1,20 +1,21 @@
 import { CsvToHtmlTable } from 'react-csv-to-table';
-import { customers_csv } from '../dummy/customers';
-import { categories_csv } from '../dummy/categories';
-import { employees_csv } from '../dummy/employees';
-import { shippers_csv } from '../dummy/shippers';
-import { suppliers_csv } from '../dummy/suppliers';
+import { categories_csv } from '../data/categories';
+import { employees_csv } from '../data/employees';
+import { shippers_csv } from '../data/shippers';
+import { suppliers_csv } from '../data/suppliers';
 import { CSVLink } from 'react-csv';
 import { SiMicrosoftexcel } from 'react-icons/si';
+import { territory_csv } from '../data/territory';
+import { products_csv } from '../data/products';
 
 export function OutputWindow(props) {
   let data;
   let tableHeaders = [];
 
   switch (props.queriedTable) {
-    case 'customers':
-      data = customers_csv;
-      tableHeaders = Object.keys(customers_csv[0]);
+    case 'products':
+      data = products_csv;
+      tableHeaders = Object.keys(products_csv[0]);
       break;
     case 'categories':
       data = categories_csv;
@@ -32,6 +33,10 @@ export function OutputWindow(props) {
       data = suppliers_csv;
       tableHeaders = Object.keys(suppliers_csv[0]);
       break;
+    case 'territory':
+      data = territory_csv;
+      tableHeaders = Object.keys(territory_csv[0]);
+      break;
     default:
       data = [{ message: '😕 No data found!' }];
   }
@@ -40,7 +45,9 @@ export function OutputWindow(props) {
     <>
       <div className="w-11/12 mx-auto overflow-scroll text-cyan-200">
         <div className="w-full flex flex-row justify-between">
-          <h1 className="font-bold text-3xl my-5">Output</h1>
+          <h1 className="font-bold text-3xl my-5">
+            Table {`${props.queriedTable}`}
+          </h1>
           {props.queriedTable !== '😕 No data found!' && (
             <CSVLink
               data={data}
@@ -56,7 +63,7 @@ export function OutputWindow(props) {
         <div className="border border-gray-300 rounded-md p-4">
           {props.queriedTable !== '😕 No data found!' ? (
             <CsvToHtmlTable
-              tableClassName="w-full"
+              tableClassName="w-full rounded-md"
               data={data}
               csvDelimiter=","
             />
