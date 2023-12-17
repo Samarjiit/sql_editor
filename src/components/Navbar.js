@@ -9,7 +9,7 @@ export function Navbar() {
           <h1 className="font-bold text-[40px] ">SQL Editor</h1>
         </div>
         <div className="flex flex-shrink-0 items-center ml-auto">
-          <a href="https://github.com/samarjiit">
+          <a href="https://github.com/Samarjiit/sql_editor">
             <p className="inline-flex font- text-[20px]">
               <BsGithub className="mx-2" size={35} />
               View on GitHub

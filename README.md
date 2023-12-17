@@ -23,6 +23,12 @@ Crafted with <span style="color: #8b0000;">&hearts;</span> by Samarjit Mahi
   <img src="yy.png">
   </p>
 
+## Performance
+
+<p align="center">
+  <img src="aa.png">
+  </p>
+
 ## ⚙️ NPM Modules Used
 
 - `"react-ace": "^10.1.0",` - To make the code editor
